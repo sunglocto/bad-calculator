@@ -1,0 +1,89 @@
+/* CSS files add styling rules to your content */
+
+.container {
+  max-width: 200px;
+  margin: 10vh auto 0 auto;
+  box-shadow: 0px 0px 43px 17px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: white;
+  transition-duration:0.5s;
+  
+  
+  
+}
+
+.container:hover {
+  max-width: 250px;
+}
+
+#display {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 15px;
+  background-color: #3bed47;
+  transition-duration:0.5s;
+}
+
+#display:hover{
+  font-size:45px;
+  
+}
+
+.buttons {
+  display: grid;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+  border-top: 0px solid #999;
+  border-right: 0px solid #999;
+}
+
+.button {
+  border: 0.5px solid #999;
+  line-height: 50px;
+  text-align: center;
+  background-color: white;
+  font-size: 25px;
+  cursor: hover;
+  transition-duration: 0.5s;
+  border-radius: 5px;
+  
+}
+
+#equal {
+  background-color: #5555ff;
+  color: white;
+}
+
+#ans {
+  background-color: #f3fc65;
+  color: black;
+}
+
+.button:hover{
+  color:white;
+  background-color: #323330;
+  font-size: 45px;
+  line-height: 60px;
+  
+}
+
+body {
+  background-color: black;
+}
+
+p {
+  color:white;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  transition-duration: 0.5s;
+}
+
+p:hover {
+  font-size: 25px;
+}
