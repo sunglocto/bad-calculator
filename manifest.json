@@ -1,0 +1,17 @@
+{
+  "name": "Bad Calculator",
+  "short_name": "Bad Calculator",
+  "start_url": ".",
+  "background_color": "#000000",
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+    "src": "https://cdn.glitch.com/bab1a760-3e16-4803-af70-535bc2faf96a%2FIcons8_flat_calculator.svg.png?v=1624558008239",
+    "sizes": "768x768",
+    "type": "image/png",
+    "purpose": "any maskable"
+    }
+    ]
+  
+}
